@@ -4,7 +4,7 @@
 /*CLASSES AUXILIARES*/
 .container{margin:0 auto;max-width: 1280px;width: 95%;}
 .section{margin-top:0.5rem;padding-bottom: 1rem; background: #e1e1e1;}
-.section h1{border-bottom:3px dotted #3b5998;display: inline-block;;padding: 0.5rem;color:#FFFFFF;background: #3b5998;}
+.section h1{display: inline-block;padding: 0.5rem;color:#2d3d8e;background: yellow;}
 .section p{text-align:justify;text-indent: 2rem;}
 .wrapper{display:flex;flex-wrap: wrap;justify-content: center; background: green;}
 .fixed{position:fixed;bottom:0;right:0;width:58%;border: 2px solid #fff;background: green;color:#FFFFFF;font-size: 1.4rem;padding: 0.3rem;}
@@ -18,12 +18,15 @@
 .fa-youtube {color:#FF0000;}
 
 /*CUSTOMIZAÇÃO*/
-body {background: #34495e;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body {background: #2d3d8e;font-family: Verdana, Geneva, Tahoma, sans-serif;}
 img{max-width: 100%;display: block;margin: auto;}
 
 /*TOPOSITE*/
-#toposite{position: sticky;top: 0;background-color: #4b4b4b;}
+#toposite{position: sticky;top: 0;background-color: #2d3d8e;}
 #topositeint{display: flex;justify-content: space-between;align-items: center;}
+
+/*BANNER*/
+#banner{margin-top:0.5rem;}
 
 /*LOGO*/
 .logo_text{display:none;}
@@ -32,9 +35,9 @@ img{max-width: 100%;display: block;margin: auto;}
 .menu {display:flex;align-items:center;}
 nav ul,nav li {list-style: none;margin:0;padding:0;}
 nav ul{display:flex;}
-nav a{display:block;padding:15px;text-decoration:none;text-transform:uppercase;color:#fff;}
-nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
-.menuMobile{display:none;width:60px;height:60px;color: #fff;border: 1px solid #fff;border-radius: 10px;justify-content: center;}
+nav a{display:block;padding:15px;text-decoration:none;text-transform:uppercase;color:#2d3d8e;font-weight: bold;color:#fff;}
+nav .active a,nav a:hover{background-color:yellow;color:#2d3d8e;}
+.menuMobile{display:none;width:60px;height:60px;color: #fff;justify-content: center;}
 .menuMobile-container{display: flex;flex-direction: column;align-items: center;}
 .mm_line{height:3px;background-color:#fff;width: 80%;margin: 2px;}
 
@@ -102,7 +105,7 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 }
 .showcasebox a{
     text-decoration: none;
-    background-color: blue;
+    background-color: #2d3d8e;
     padding: 1rem;
     border-radius: 0.5em;
     color: #fff;
@@ -113,7 +116,7 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 
 /*QUEM SOMOS*/
 .quemsomos{
-    background-image: url("../img/quemsomos.png");
+    background-image: url("#");
     background-size: cover;
     background-repeat: no-repeat;
     min-height:300px;
