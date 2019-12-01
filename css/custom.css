@@ -77,6 +77,7 @@ nav .active a,nav a:hover{background-color:yellow;color:#2d3d8e;}
 .galeriaimagens img{
     width: 300px;
     margin: 5px;
+    border-radius: 10px;
 }
 
 /*CONTATO*/
