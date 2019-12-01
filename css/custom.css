@@ -3,12 +3,10 @@
 
 /*CLASSES AUXILIARES*/
 .container{margin:0 auto;max-width: 1280px;width: 95%;}
-.section{margin-top:0.5rem;padding-bottom: 1rem; background: #FFFFF0;}
+.section{margin-top:0.5rem;padding-bottom: 1rem; background: #Fff;}
 .section h1{display: inline-block;padding: 0.5rem;color:#2d3d8e;background: yellow;}
 .section p{text-align:justify;text-indent: 2rem;}
 .wrapper{display:flex;flex-wrap: wrap;justify-content: center;}
-.fixed{position:fixed;bottom:0;right:0;width:58%;border: 2px solid #fff;background: green;color:#FFFFFF;font-size: 1.4rem;padding: 0.3rem;}
-.chk{color:green !important;text-shadow: 2px 2px 2px #fff;}
 
 /*REDESSOCIAIS*/
 .redessociais-container{display: flex;justify-content: center;background-color: #fff;}
@@ -58,15 +56,35 @@ nav .active a,nav a:hover{background-color:yellow;color:#2d3d8e;}
 /*QUEM SOMOS*/
 .quemsomos{
     padding:0.5rem;
-    color: #000;
+    color: #333;
+    line-height: 1.6;;
 }
-.quemsomos h2{
-    margin:0.5rem;
+.quemsomos h2, .quemsomos h3 {
+    margin-top:0.5rem;
+    text-align: center;
 }
 .quemsomos i{
     font-size: 2rem;
     margin:1rem; 
 }
+
+.galeriaimagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeriaimagens img{
+    width: 300px;
+    margin: 5px;
+}
+
+/*CONTATO*/
+.contato{width: 100%;max-width: 500px;}
+.form{display: flex;flex-direction: column;}
+.field{padding: 10px;margin-bottom: 15px; border: 1px solid #333; border-radius: 5px;}
+textarea{height: 150px;}
+#contato{display: flex;justify-content: center;}
 
 /*RODAPESITE*/
 #rodapesite{
