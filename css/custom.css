@@ -60,6 +60,9 @@ nav .active a,nav a:hover{background-color:yellow;color:#2d3d8e;}
     padding:0.5rem;
     color: #000;
 }
+.quemsomos h2{
+    margin:0.5rem;
+}
 .quemsomos i{
     font-size: 2rem;
     margin:1rem; 
