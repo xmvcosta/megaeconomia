@@ -81,7 +81,7 @@ nav .active a,nav a:hover{background-color:yellow;color:#2d3d8e;}
 }
 
 /*CONTATO*/
-.contato{width: 100%;max-width: 500px;}
+.contato{width: 100%;max-width: 500px;padding: 5px;}
 .form{display: flex;flex-direction: column;}
 .field{padding: 10px;margin-bottom: 15px; border: 1px solid #333; border-radius: 5px;}
 textarea{height: 150px;}
