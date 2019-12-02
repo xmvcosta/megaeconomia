@@ -25,6 +25,7 @@ img{max-width: 100%;display: block;margin: auto;}
 
 /*BANNER*/
 #banner{margin-top:0.5rem;}
+#banner img{width: 100%;}
 
 /*LOGO*/
 .logo_text{display:none;}
@@ -37,7 +38,7 @@ nav a{display:block;padding:15px;text-decoration:none;text-transform:uppercase;c
 nav .active a,nav a:hover{background-color:yellow;color:#2d3d8e;}
 .menuMobile{display:none;width:60px;height:60px;color: #fff;justify-content: center;}
 .menuMobile-container{display: flex;flex-direction: column;align-items: center;}
-.mm_line{height:3px;background-color:#fff;width: 80%;margin: 2px;}
+.mm_line{height:3px;background-color:yellow;width: 80%;margin: 2px;}
 
 /*SHOWCASE*/
 .showcasebox{
@@ -59,6 +60,7 @@ nav .active a,nav a:hover{background-color:yellow;color:#2d3d8e;}
     flex-direction: column;
     align-items: center;
     width: 100%;
+    text-shadow: 1px 1px 1px #000;
 }
 .showcaseboxdesc div{
     padding: 3px;
