@@ -3,8 +3,8 @@
 
 /*CLASSES AUXILIARES*/
 .container{margin:0 auto;max-width: 1280px;width: 95%;}
-.section{margin-top:0.5rem;padding-bottom: 1rem; background: #Fff;}
-.section h1{display: inline-block;padding: 0.5rem;color:#2d3d8e;background: yellow;}
+.section{margin-top:0.5rem;padding-bottom: 1rem; background-color: #F0FFFF;}
+.section h1{display: inline-block;padding: 0.5rem;color:#2d3d8e;background: yellow;border:1px solid red;}
 .section p{text-align:justify;text-indent: 2rem;}
 .wrapper{display:flex;flex-wrap: wrap;justify-content: center;}
 
@@ -51,6 +51,17 @@ nav .active a,nav a:hover{background-color:yellow;color:#2d3d8e;}
     font-weight: bold;
     width: 300px;
     margin: 0.3rem;
+}   
+.showcaseboxdesc{
+    color:#fff;
+    background-color: #2b4c99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.showcaseboxdesc div{
+    padding: 3px;
 }
 
 /*QUEM SOMOS*/
@@ -72,12 +83,18 @@ nav .active a,nav a:hover{background-color:yellow;color:#2d3d8e;}
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    transition: 0.5s transform;
 }
 
 .galeriaimagens img{
     width: 300px;
     margin: 5px;
     border-radius: 10px;
+}
+
+.galeriaimagens img:hover{
+    transform: scale(1.1);
+    transition: 0.5s transform;
 }
 
 /*CONTATO*/
