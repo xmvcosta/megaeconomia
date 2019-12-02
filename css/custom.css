@@ -85,13 +85,13 @@ nav .active a,nav a:hover{background-color:yellow;color:#2d3d8e;}
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    transition: 0.5s transform;
 }
 
 .galeriaimagens img{
     width: 300px;
     margin: 5px;
     border-radius: 10px;
+    transition: 0.5s transform;
 }
 
 .galeriaimagens img:hover{
