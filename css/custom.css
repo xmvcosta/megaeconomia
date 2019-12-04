@@ -7,6 +7,8 @@
 .section h1{display: inline-block;padding: 0.5rem;color:#2d3d8e;background: yellow;border:1px solid red;}
 .section p{text-align:justify;text-indent: 2rem;}
 .wrapper{display:flex;flex-wrap: wrap;justify-content: center;}
+.voltaMenu{position: fixed;bottom:5px;left:5px;background: blue; padding:8px;border:1px solid yellow;}
+.voltaMenu a{text-decoration: none;color:#fff;cursor:pointer;}
 
 /*REDESSOCIAIS*/
 .redessociais-container{display: flex;justify-content: center;background-color: #D0E4F5}
@@ -144,6 +146,7 @@ textarea{height: 150px;}
     align-items: center;
     padding: 0.5rem;
     }
+
 
 /*MEDIAS*/
 /*MEDIA MOBILE*/
