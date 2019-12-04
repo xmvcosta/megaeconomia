@@ -20,7 +20,7 @@ body {background: #2d3d8e;font-family: Verdana, Geneva, Tahoma, sans-serif;}
 img{max-width: 100%;display: block;margin: auto;}
 
 /*TOPOSITE*/
-#toposite{position: sticky;top: 0;background-color: #2d3d8e;}
+#toposite{background-color: #2d3d8e;}
 #topositeint{display: flex;justify-content: space-between;align-items: center;}
 
 /*BANNER*/
